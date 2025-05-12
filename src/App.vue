@@ -1,8 +1,9 @@
 <template>
-  <div class="min-h-screen text-white bg-primary">
+  <DefaultLayout>
     <RouterView />
-  </div>
+  </DefaultLayout>
 </template>
 
 <script setup>
+import DefaultLayout from '@/layouts/DefaultLayout.vue'
 </script>
