@@ -1,5 +1,9 @@
 <template>
-  <footer class="bg-primary text-gray-400 text-sm text-center p-4 border-t border-gray-700">
-    © 2025 MyPortfolio. All rights reserved.
+  <footer class="text-center text-gray-500 py-6 border-t border-gray-700 text-sm">
+    © {{ year }} YuJun Oh. All rights reserved.
   </footer>
 </template>
+
+<script setup lang="ts">
+const year = new Date().getFullYear()
+</script>

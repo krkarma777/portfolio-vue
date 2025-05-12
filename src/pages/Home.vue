@@ -5,6 +5,7 @@
     <ProjectList />
     <Skills />
     <Tools />
+    <Contact />
   </div>
 </template>
 
@@ -14,4 +15,5 @@ import GitHubStats from '@/components/GitHubStats.vue'
 import ProjectList from '@/components/ProjectList.vue'
 import Skills from '@/components/Skills.vue'
 import Tools from '@/components/Tools.vue'
+import Contact from "@/components/Contact.vue";
 </script>

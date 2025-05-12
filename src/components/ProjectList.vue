@@ -1,7 +1,7 @@
 <template>
   <section class="py-16 max-w-5xl mx-auto px-4" id="projects">
     <h2 class="text-3xl font-bold text-white mb-8">📖 Repositories Overview</h2>
-    <div class="grid gap-6 md:grid-cols-2">
+    <div class="grid gap-6 grid-cols-1 sm:grid-cols-2">
       <ProjectCard
           v-for="(project, i) in projects"
           :key="i"

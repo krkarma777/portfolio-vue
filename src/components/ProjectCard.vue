@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-[#1e1e1e] p-5 rounded-lg shadow-md hover:scale-105 transition">
+  <div class="bg-[#1e1e1e] p-5 rounded-lg shadow-md hover:scale-105 transition" data-aos="zoom-in" data-aos-delay="150">
     <img :src="image" alt="screenshot" class="rounded mb-3" />
     <h3 class="text-xl font-bold text-white mb-2">{{ title }}</h3>
     <p class="text-gray-400 text-sm mb-2">{{ description }}</p>
