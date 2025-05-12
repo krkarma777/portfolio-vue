@@ -1,0 +1,5 @@
+<template>
+  <section class="text-center text-3xl font-bold mt-10">
+    Home Page
+  </section>
+</template>
