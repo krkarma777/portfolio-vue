@@ -1,5 +1,4 @@
+<!-- Home.vue -->
 <template>
-  <section class="text-center text-3xl font-bold mt-10">
-    Home Page
-  </section>
+  <div class="text-4xl font-bold text-green-500">Tailwind 적용됨 🎉</div>
 </template>
