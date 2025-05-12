@@ -1,4 +1,13 @@
-<!-- Home.vue -->
 <template>
-  <div class="text-4xl font-bold text-green-500">Tailwind 적용됨 🎉</div>
+  <div>
+    <Hero />
+    <GitHubStats />
+    <ProjectList />
+  </div>
 </template>
+
+<script setup lang="ts">
+import Hero from '@/components/Hero.vue'
+import GitHubStats from '@/components/GitHubStats.vue'
+import ProjectList from '@/components/ProjectList.vue'
+</script>
