@@ -1,29 +1,41 @@
-// src/App.vue
 <template>
-  <div class="min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white font-sans">
-    <Navbar />
-    <main class="px-4 md:px-8 lg:px-16">
-      <Hero />
-      <About />
-      <Projects />
-      <Contact />
-    </main>
-    <Footer />
+  <div class="min-h-screen w-full bg-[#0F1117] text-white font-sans bg-red-500">
+    <div class="max-w-screen-xl w-full mx-auto px-6 md:px-12">
+      <header class="w-full px-6 py-4 flex justify-between items-center border-b border-white/10">
+        <h1 class="text-2xl font-bold">YuJun Oh</h1>
+        <nav class="space-x-4 text-sm">
+          <a href="#about" class="hover:text-cyan-400 transition">About</a>
+          <a href="#tech" class="hover:text-cyan-400 transition">Tech</a>
+          <a href="#projects" class="hover:text-cyan-400 transition">Projects</a>
+          <a href="#contact" class="hover:text-cyan-400 transition">Contact</a>
+        </nav>
+      </header>
+
+      <main>
+        <HeroSection />
+        <AboutSection />
+        <TechStackSection />
+        <ProjectsSection />
+        <ContactSection />
+      </main>
+
+      <footer class="text-center text-sm py-6 border-t border-white/10 text-white/40">
+        &copy; 2025 YuJun Oh. All rights reserved.
+      </footer>
+    </div>
   </div>
 </template>
 
 <script setup lang="ts">
-import Navbar from './components/Navbar.vue'
-import Hero from './components/Hero.vue'
-import About from './components/About.vue'
-import Projects from './components/Projects.vue'
-import Contact from './components/Contact.vue'
-import Footer from './components/Footer.vue'
+import HeroSection from './components/HeroSection.vue'
+import AboutSection from './components/AboutSection.vue'
+import TechStackSection from './components/TechStackSection.vue'
+import ProjectsSection from './components/ProjectsSection.vue'
+import ContactSection from './components/ContactSection.vue'
 </script>
 
 <style scoped>
-/* 기본 폰트는 깔끔한 sans-serif */
 body {
-  font-family: 'Inter', 'Pretendard Variable', sans-serif;
+  @apply bg-[#0F1117];
 }
 </style>
